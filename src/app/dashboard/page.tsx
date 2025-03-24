@@ -1,7 +1,7 @@
 export default function dashboard() {
   return (
-    <div>
-      <h1>test</h1>
+    <div className="h-full w-full">
+      <div></div>
     </div>
   );
 }

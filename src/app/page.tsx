@@ -4,7 +4,7 @@ import GithubButton from "../components/login/Github";
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
+    <main className="text-foreground flex min-h-screen flex-col items-center justify-center">
       <div>
         <GithubButton></GithubButton>
       </div>
