@@ -15,6 +15,20 @@
       "when": 1742737169417,
       "tag": "0001_abnormal_puff_adder",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1743079878091,
+      "tag": "0002_charming_magneto",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1743108570863,
+      "tag": "0003_brave_skin",
+      "breakpoints": true
     }
   ]
 }

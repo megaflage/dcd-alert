@@ -77,3 +77,16 @@
     background-attachment: fixed;
   }
 }
+
+/* override tailwind v4 behaviour for default cursor behaviour */
+@layer base {
+  button,
+  [role='button'] {
+    cursor: pointer;
+  }
+  button:disabled,
+  [role='button']:disabled {
+    cursor: default;
+  }
+}
+

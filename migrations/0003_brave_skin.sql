@@ -1,0 +1,1 @@
+ALTER TABLE "contact" ADD PRIMARY KEY ("id");
