@@ -13,10 +13,7 @@ export async function createContact(contactInfo: ContactInfo) {
         where: and(
             eq(contact.phone, contactInfo.phone),
             eq(contact.userId, contactInfo.userId)
-        ),
-        with: {
-            user: true 
-        }
+        )
     });
 
     console.log("Existing contact found:", existingContact);
